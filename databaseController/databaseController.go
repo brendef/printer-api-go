@@ -33,21 +33,11 @@ func openConnection() *sql.DB {
 
 	databaseName := os.Getenv("AWS_DATABASE_NAME")
 	databaseUser := os.Getenv("AWS_DATABASE_USER")
-	databasePassword := "W0ch4_etppe#3"
+	databasePassword := os.Getenv("AWS_DATABASE_PASSWORD")
 	databaseUrl := os.Getenv("AWS_DATABASE_URL")
 	databasePort := os.Getenv("AWS_DATABASE_PORT")
 
-	fmt.Println(databaseName)
-	fmt.Println(databaseUser)
-	fmt.Println(databasePassword)
-	fmt.Println(databaseUrl)
-	fmt.Println(databasePort)
-
-  fmt.Println(sql.Drivers())
-
 	connectionString := fmt.Sprintf("%v:%v@tcp(%v:%v)/%v", databaseUser, databasePassword, databaseUrl, databasePort, databaseName)
-
-  fmt.Println(connectionString)
 
 	db, error := sql.Open("mysql", connectionString)
 
