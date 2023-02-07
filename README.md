@@ -88,7 +88,7 @@ To run this project, you will need to add the following environment variables to
 ## Related
 
 The frontend to view that interacts with this API can be found at:
-[Printers Next JS App](https://github.com/brendef/tallorder-printer-crud.git)
+[Printers Next JS App](https://github.com/brendef/tallorder-printers-crud)
 
 
 ## FAQ
