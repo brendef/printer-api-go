@@ -104,6 +104,15 @@ It is an amazing language that is super easy to build and run as a server on a L
 #### Why AWS EC2
 
 My goal was to get something up and running ASAP. EC2s are super simple make a perfect dev environmnet. I do belive a serverless product such as *Amplify* for the front end and *lambda* would have been better. I will migrate this later one to use these technologies for sure!
+
+## How can this project be improved
+
+TOP 3:
+
+1. The code can be cleaned up ALOT! It can also be MUCH MORE robust.
+2. HTTPS needs to be enabled.
+3. Log Messages to prevent
+
 ## Feedback
 
 I really appreciate feedback. Please reach out to me at brendan.defaria@gmail.com
