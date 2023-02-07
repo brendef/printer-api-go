@@ -111,7 +111,7 @@ TOP 3:
 
 1. The code can be cleaned up ALOT! It can also be MUCH MORE robust.
 2. HTTPS needs to be enabled.
-3. Log Messages to prevent
+3. Log Messages
 
 ## Feedback
 
