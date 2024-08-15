@@ -1,6 +1,4 @@
 
-# Brendan de Faria 
-
 A REST API built in Go. 
 
 
