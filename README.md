@@ -1,9 +1,9 @@
 
-# Brendan de Faria's Tall Order Test 
+# Brendan de Faria 
 
-A REST API built in GoLang for TallOrder. 
+A REST API built in Go. 
 
-**Domain:** http://brendans-tallorder-test.com:8080
+**Domain:** http://brendans--test.com:8080
 
 **PLEASE NOTE**: This app does not run over https just yet. So please allow your browser to visit the website. It may give you a warning that your connection is not seccure.
 
@@ -50,13 +50,13 @@ Remove the printer specified by ip in the path.
 Clone the project
 
 ```bash
-  https://github.com/brendef/tallorder-printer-api.git
+  https://github.com/brendef/-printer-api.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd tallorder-printers-api
+  cd -printers-api
 ```
 
 Install dependencies
@@ -88,7 +88,7 @@ To run this project, you will need to add the following environment variables to
 ## Related
 
 The frontend to view that interacts with this API can be found at:
-[Printers Next JS App](https://github.com/brendef/tallorder-printers-crud)
+[Printers Next JS App](https://github.com/brendef/-printers-crud)
 
 
 ## FAQ
