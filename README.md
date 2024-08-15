@@ -3,11 +3,6 @@
 
 A REST API built in Go. 
 
-**Domain:** http://brendans--test.com:8080
-
-**PLEASE NOTE**: This app does not run over https just yet. So please allow your browser to visit the website. It may give you a warning that your connection is not seccure.
-
-
 
 ## Tech Stack
 
